@@ -1,7 +1,8 @@
 ﻿using SikriCounter;
+using SikriCounter.Rules;
 
 IEnumerable<int> sequence = Enumerable.Range(1, 100);
-IEnumerable<IIteratorRule> rules = new IIteratorRule[2] { new OddRule("Odd"), new DivisorRule(7, "Seven") };
+IEnumerable<IRule> rules = new IRule[2] { new OddRule("Odd"), new DivisorRule(7, "Seven") };
 
 Console.WriteLine("--- START ---");
 foreach (var index in sequence)

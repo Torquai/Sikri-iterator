@@ -1,6 +1,6 @@
 ﻿namespace SikriCounter.Rules
 {
-    public class OddRule : IIteratorRule
+    public class OddRule : IRule
     {
         public OddRule(string output)
         {

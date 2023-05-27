@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SikriCounter.Rules
 {
-    public sealed class DivisorRule : IIteratorRule
+    public sealed class DivisorRule : IRule
     {
         private int _divisor;
 
